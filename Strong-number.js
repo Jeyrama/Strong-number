@@ -41,3 +41,13 @@ function strong(n) {
 }
 
 // or
+
+const strong = n =>
+  [...String(n)].map(element => {
+    let result = 1
+    for (let i = element; i > 0; i--) {
+      result *= i
+    }
+    return result
+  }).reduce((prev,curr) => prev + curr) == n ? 'STRONG!!!!' : 'Not Strong!!';
+  
