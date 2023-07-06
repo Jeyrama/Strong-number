@@ -20,3 +20,9 @@ strong_num(2)  ==>  return "STRONG!!!!"
 Since the sum of its digits' factorial of 2! = 2 
 is equal to number itself, then its a Strong.
 */
+
+
+// Solution
+
+let arr = String(n).split("");
+let sum = 0;
