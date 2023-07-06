@@ -39,3 +39,5 @@ function strong(n) {
   }
   return n == sum ? "STRONG!!!!" : "Not Strong!!";
 }
+
+// or
